@@ -1,0 +1,76 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chat_header {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 1%;
+}
+.chat_headerInfo {
+  margin-top: 1%;
+  flex: 1;
+  margin-left: 15px;
+}
+.chat_body {
+  flex: 1;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12ee6265-e947-474a-a378-6d78ab0d1117/d8fr7iz-082cab4c-3f87-47e1-b2f0-efdb504372e5.jpg/v1/fill/w_1024,h_576,q_75,strp/super_hero_whatsapp_background_by_x_ama_d8fr7iz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC8xMmVlNjI2NS1lOTQ3LTQ3NGEtYTM3OC02ZDc4YWIwZDExMTdcL2Q4ZnI3aXotMDgyY2FiNGMtM2Y4Ny00N2UxLWIyZjAtZWZkYjUwNDM3MmU1LmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.vMsSrJL87xcHSN4_yT8cSlEGqymaknC5rvamCRrnlGU");
+  background-repeat: none;
+  background-position: center;
+  overflow: scroll;
+  padding: 30px;
+}
+.chat_message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.chat_time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+.chat_name {
+  position: absolute;
+  top: -17px;
+  font-weight: 800;
+  font-size: small;
+}
+.chat_reciver {
+  color: green;
+  margin-left: auto;
+}
+.chat_reciver > .chat_name {
+  color: rgb(9, 130, 146);
+}
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+}
+.chat_footer > form {
+  flex: 1;
+  display: flex;
+}
+.chat_footer > form > input {
+  flex: 1;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  outline-width: 0;
+}
+.chat_footer > form > button {
+  display: none;
+}
+.chat_footer > .MuiSvgIcon-root{
+  color: gray;
+  padding: 15px;
+}
